@@ -1480,6 +1480,16 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/pure-inbox-screen.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1520,6 +1530,16 @@
                 "name": "environment",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/environments/environment.prod.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: true\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/environments/environment.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1527,14 +1547,14 @@
                 "defaultValue": "{\n  production: false\n}"
             },
             {
-                "name": "environment",
+                "name": "Error",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/environments/environment.prod.ts",
+                "file": "src/app/components/pure-inbox-screen.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "object",
-                "defaultValue": "{\n  production: true\n}"
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "Large",
@@ -1670,6 +1690,16 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/components/pure-inbox-screen.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "(args) => ({\r\n props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/components/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1685,6 +1715,16 @@
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "args => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
+            },
+            {
+                "name": "WithInteractions",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/pure-inbox-screen.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "WithPinnedTasks",
@@ -1775,6 +1815,48 @@
                     "defaultValue": "args => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
                 }
             ],
+            "src/app/components/pure-inbox-screen.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Error",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "(args) => ({\r\n props: args,\r\n})"
+                },
+                {
+                    "name": "WithInteractions",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                }
+            ],
             "src/app/components/pure-task-list.stories.ts": [
                 {
                     "name": "Default",
@@ -1827,18 +1909,6 @@
                     "defaultValue": "Template.bind({})"
                 }
             ],
-            "src/environments/environment.ts": [
-                {
-                    "name": "environment",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/environments/environment.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\n  production: false\n}"
-                }
-            ],
             "src/environments/environment.prod.ts": [
                 {
                     "name": "environment",
@@ -1849,6 +1919,18 @@
                     "deprecationMessage": "",
                     "type": "object",
                     "defaultValue": "{\n  production: true\n}"
+                }
+            ],
+            "src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: false\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
@@ -2002,6 +2084,46 @@
                 "name": "PureInboxScreenComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/pure-inbox-screen.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/pure-inbox-screen.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Error",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/pure-inbox-screen.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/pure-inbox-screen.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WithInteractions",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
