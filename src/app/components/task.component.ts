@@ -26,11 +26,12 @@ import { Task } from '../models/task.model';
       >
         <input
           type="text"
-          [value]="task.title"
+          [value]="task?.title"
           readonly="true"
           id="title-{{ task?.id }}"
           name="title-{{ task?.id }}"
           placeholder="Input title"
+         style="text-overflow: ellipsis;"
         />
       </label>
       <button
